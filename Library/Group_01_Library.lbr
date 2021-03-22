@@ -177,6 +177,10 @@
 </symbols>
 <devicesets>
 <deviceset name="TMUX1208">
+<description>&lt;p&gt;&lt;strong&gt;TMUX1208&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The TMUX1208 and TMUX1209 are general purpose complementary metal-oxide semiconductor (CMOS) multiplexers (MUX). The TMUX1208 offers 8:1 singleended channels, while the TMUX1209 offers differential 4:1 or dual 4:1 single-ended channels.&lt;/p&gt;
+&lt;p&gt;Wide operating supply of 1.08 V to 5.5 V allows for use in a broad array of applications from personal electronics to building automation applications. The device supports bidirectional analog and digital signals on the source (Sx) and drain (D) pins ranging from GND to VDD.&lt;/p&gt;
+&lt;p&gt;For the full datasheet follow the &lt;a href="https://www.ti.com/lit/ds/symlink/tmux1208.pdf?ts=1615825592091"&gt;link&lt;/a&gt;.&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="TMUX1208" x="-10.16" y="0"/>
 </gates>
