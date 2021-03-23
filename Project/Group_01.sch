@@ -7218,24 +7218,24 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </sheet>
 </sheets>
 <errors>
-<approved hash="106,1,73.66,-368.3,MUX_A0/1.3C,,,,,"/>
+<approved hash="106,1,121.92,-360.68,MUX_A0/1.3C,,,,,"/>
 <approved hash="106,1,114.3,-144.78,MUX_A0/2.3C,,,,,"/>
-<approved hash="106,1,73.66,-370.84,MUX_A1/1.4C,,,,,"/>
+<approved hash="106,1,121.92,-363.22,MUX_A1/1.4C,,,,,"/>
 <approved hash="106,1,116.84,-144.78,MUX_A1/2.3C,,,,,"/>
-<approved hash="106,1,73.66,-373.38,MUX_A2/1.4C,,,,,"/>
+<approved hash="106,1,121.92,-365.76,MUX_A2/1.4C,,,,,"/>
 <approved hash="106,1,119.38,-144.78,MUX_A2/2.3C,,,,,"/>
-<approved hash="106,1,101.6,-358.14,MUX_OUT/1.4C,,,,,"/>
+<approved hash="106,1,149.86,-350.52,MUX_OUT/1.4C,,,,,"/>
 <approved hash="106,1,121.92,-144.78,MUX_OUT/2.5C,,,,,"/>
 <approved hash="113,1,145.311,-129.009,FRAME1,,,,,"/>
-<approved hash="113,1,215.223,-124.297,J2,,,,,"/>
-<approved hash="113,1,215.223,-142.077,J3,,,,,"/>
-<approved hash="113,1,215.223,-159.857,J4,,,,,"/>
-<approved hash="113,1,215.223,-177.637,J5,,,,,"/>
-<approved hash="113,1,39.9627,-243.677,J7,,,,,"/>
-<approved hash="113,1,73.66,-239.956,U2,,,,,"/>
-<approved hash="113,1,65.3627,-345.277,J8,,,,,"/>
-<approved hash="113,1,152.237,-193.717,J6,,,,,"/>
-<approved hash="113,1,110.49,-268.646,S1,,,,,"/>
+<approved hash="113,1,215.223,-124.328,J2,,,,,"/>
+<approved hash="113,1,215.223,-142.108,J3,,,,,"/>
+<approved hash="113,1,215.223,-159.888,J4,,,,,"/>
+<approved hash="113,1,215.223,-177.668,J5,,,,,"/>
+<approved hash="113,1,106.003,-251.328,J7,,,,,"/>
+<approved hash="113,1,45.72,-288.235,U2,,,,,"/>
+<approved hash="113,1,113.623,-337.688,J8,,,,,"/>
+<approved hash="113,1,152.268,-193.717,J6,,,,,"/>
+<approved hash="113,1,166.37,-271.186,S1,,,,,"/>
 <approved hash="113,1,145.311,-311.889,FRAME2,,,,,"/>
 </errors>
 </schematic>
