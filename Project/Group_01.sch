@@ -262,28 +262,29 @@ DIN A4, landscape with location and doc. field</description>
 <text x="-3.35" y="-4.15" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="QFN16">
-<smd name="S2" x="-0.8" y="-0.2" dx="0.6" dy="0.2" layer="1"/>
-<smd name="S1" x="-0.8" y="0.2" dx="0.6" dy="0.2" layer="1"/>
-<smd name="VDD" x="0.8" y="0.2" dx="0.6" dy="0.2" layer="1"/>
-<smd name="S5" x="0.8" y="-0.2" dx="0.6" dy="0.2" layer="1"/>
-<smd name="S3" x="-0.8" y="-0.6" dx="0.6" dy="0.2" layer="1"/>
-<smd name="S6" x="0.8" y="-0.6" dx="0.6" dy="0.2" layer="1"/>
-<smd name="GND" x="0.8" y="0.6" dx="0.6" dy="0.2" layer="1"/>
-<smd name="D" x="-0.2" y="-1.2" dx="0.6" dy="0.2" layer="1" rot="R90"/>
-<smd name="S4" x="-0.6" y="-1.2" dx="0.6" dy="0.2" layer="1" rot="R90"/>
-<smd name="S8" x="0.2" y="-1.2" dx="0.6" dy="0.2" layer="1" rot="R90"/>
-<smd name="S7" x="0.6" y="-1.2" dx="0.6" dy="0.2" layer="1" rot="R90"/>
-<smd name="A1" x="0.2" y="1.2" dx="0.6" dy="0.2" layer="1" rot="R90"/>
-<smd name="A2" x="0.6" y="1.2" dx="0.6" dy="0.2" layer="1" rot="R90"/>
-<smd name="A0" x="-0.2" y="1.2" dx="0.6" dy="0.2" layer="1" rot="R90"/>
-<smd name="EN" x="-0.6" y="1.2" dx="0.6" dy="0.2" layer="1" rot="R90"/>
-<smd name="N.C." x="-0.75" y="0.6" dx="0.7" dy="0.2" layer="1" rot="R180"/>
+<smd name="3" x="-0.8" y="-0.2" dx="0.6" dy="0.2" layer="1"/>
+<smd name="2" x="-0.8" y="0.2" dx="0.6" dy="0.2" layer="1"/>
+<smd name="11" x="0.8" y="0.2" dx="0.6" dy="0.2" layer="1"/>
+<smd name="10" x="0.8" y="-0.2" dx="0.6" dy="0.2" layer="1"/>
+<smd name="4" x="-0.8" y="-0.6" dx="0.6" dy="0.2" layer="1"/>
+<smd name="9" x="0.8" y="-0.6" dx="0.6" dy="0.2" layer="1"/>
+<smd name="12" x="0.8" y="0.6" dx="0.6" dy="0.2" layer="1"/>
+<smd name="6" x="-0.2" y="-1.2" dx="0.6" dy="0.2" layer="1" rot="R90"/>
+<smd name="5" x="-0.6" y="-1.2" dx="0.6" dy="0.2" layer="1" rot="R90"/>
+<smd name="7" x="0.2" y="-1.2" dx="0.6" dy="0.2" layer="1" rot="R90"/>
+<smd name="8" x="0.6" y="-1.2" dx="0.6" dy="0.2" layer="1" rot="R90"/>
+<smd name="14" x="0.2" y="1.2" dx="0.6" dy="0.2" layer="1" rot="R90"/>
+<smd name="13" x="0.6" y="1.2" dx="0.6" dy="0.2" layer="1" rot="R90"/>
+<smd name="15" x="-0.2" y="1.2" dx="0.6" dy="0.2" layer="1" rot="R90"/>
+<smd name="16" x="-0.6" y="1.2" dx="0.6" dy="0.2" layer="1" rot="R90"/>
+<smd name="1" x="-0.75" y="0.6" dx="0.7" dy="0.2" layer="1" rot="R180"/>
 <wire x1="-0.9" y1="1.3" x2="-0.9" y2="-1.3" width="0.127" layer="51"/>
 <wire x1="-0.9" y1="-1.3" x2="0.9" y2="-1.3" width="0.127" layer="51"/>
 <wire x1="0.9" y1="-1.3" x2="0.9" y2="1.3" width="0.127" layer="51"/>
 <wire x1="0.9" y1="1.3" x2="-0.9" y2="1.3" width="0.127" layer="51"/>
 <text x="-1.27" y="2.54" size="0.8128" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-2.54" size="0.8128" layer="27">&gt;VALUE</text>
+<circle x="-1.524" y="0.762" radius="0.254" width="0" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -371,28 +372,32 @@ DIN A4, landscape with location and doc. field</description>
 </devices>
 </deviceset>
 <deviceset name="TMUX1208">
+<description>&lt;p&gt;&lt;strong&gt;TMUX1208&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The TMUX1208 and TMUX1209 are general purpose complementary metal-oxide semiconductor (CMOS) multiplexers (MUX). The TMUX1208 offers 8:1 singleended channels, while the TMUX1209 offers differential 4:1 or dual 4:1 single-ended channels.&lt;/p&gt;
+&lt;p&gt;Wide operating supply of 1.08 V to 5.5 V allows for use in a broad array of applications from personal electronics to building automation applications. The device supports bidirectional analog and digital signals on the source (Sx) and drain (D) pins ranging from GND to VDD.&lt;/p&gt;
+&lt;p&gt;For the full datasheet follow the &lt;a href="https://www.ti.com/lit/ds/symlink/tmux1208.pdf?ts=1615825592091"&gt;link&lt;/a&gt;.&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="TMUX1208" x="-10.16" y="0"/>
 </gates>
 <devices>
 <device name="" package="QFN16">
 <connects>
-<connect gate="G$1" pin="A0" pad="A0"/>
-<connect gate="G$1" pin="A1" pad="A1"/>
-<connect gate="G$1" pin="A2" pad="A2"/>
-<connect gate="G$1" pin="D" pad="D"/>
-<connect gate="G$1" pin="EN" pad="EN"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="N.C." pad="N.C."/>
-<connect gate="G$1" pin="S1" pad="S1"/>
-<connect gate="G$1" pin="S2" pad="S2"/>
-<connect gate="G$1" pin="S3" pad="S3"/>
-<connect gate="G$1" pin="S4" pad="S4"/>
-<connect gate="G$1" pin="S5" pad="S5"/>
-<connect gate="G$1" pin="S6" pad="S6"/>
-<connect gate="G$1" pin="S7" pad="S7"/>
-<connect gate="G$1" pin="S8" pad="S8"/>
-<connect gate="G$1" pin="VDD" pad="VDD"/>
+<connect gate="G$1" pin="A0" pad="15"/>
+<connect gate="G$1" pin="A1" pad="14"/>
+<connect gate="G$1" pin="A2" pad="13"/>
+<connect gate="G$1" pin="D" pad="6"/>
+<connect gate="G$1" pin="EN" pad="16"/>
+<connect gate="G$1" pin="GND" pad="12"/>
+<connect gate="G$1" pin="N.C." pad="1"/>
+<connect gate="G$1" pin="S1" pad="2"/>
+<connect gate="G$1" pin="S2" pad="3"/>
+<connect gate="G$1" pin="S3" pad="4"/>
+<connect gate="G$1" pin="S4" pad="5"/>
+<connect gate="G$1" pin="S5" pad="10"/>
+<connect gate="G$1" pin="S6" pad="9"/>
+<connect gate="G$1" pin="S7" pad="8"/>
+<connect gate="G$1" pin="S8" pad="7"/>
+<connect gate="G$1" pin="VDD" pad="11"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7227,14 +7232,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <approved hash="106,1,149.86,-350.52,MUX_OUT/1.4C,,,,,"/>
 <approved hash="106,1,121.92,-144.78,MUX_OUT/2.5C,,,,,"/>
 <approved hash="113,1,145.311,-129.009,FRAME1,,,,,"/>
-<approved hash="113,1,215.223,-124.328,J2,,,,,"/>
-<approved hash="113,1,215.223,-142.108,J3,,,,,"/>
-<approved hash="113,1,215.223,-159.888,J4,,,,,"/>
-<approved hash="113,1,215.223,-177.668,J5,,,,,"/>
-<approved hash="113,1,106.003,-251.328,J7,,,,,"/>
-<approved hash="113,1,45.72,-288.235,U2,,,,,"/>
-<approved hash="113,1,113.623,-337.688,J8,,,,,"/>
-<approved hash="113,1,152.268,-193.717,J6,,,,,"/>
+<approved hash="113,1,215.223,-124.297,J2,,,,,"/>
+<approved hash="113,1,215.223,-142.077,J3,,,,,"/>
+<approved hash="113,1,215.223,-159.857,J4,,,,,"/>
+<approved hash="113,1,215.223,-177.637,J5,,,,,"/>
+<approved hash="113,1,106.003,-251.297,J7,,,,,"/>
+<approved hash="113,1,45.72,-288.216,U2,,,,,"/>
+<approved hash="113,1,113.623,-337.657,J8,,,,,"/>
+<approved hash="113,1,152.237,-193.717,J6,,,,,"/>
 <approved hash="113,1,166.37,-271.186,S1,,,,,"/>
 <approved hash="113,1,145.311,-311.889,FRAME2,,,,,"/>
 </errors>
