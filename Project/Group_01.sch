@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -6429,7 +6429,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
-<part name="U$3" library="Group_01_Library" deviceset="TCA9546A" device=""/>
+<part name="U3" library="Group_01_Library" deviceset="TCA9546A" device=""/>
 <part name="GND5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
@@ -6529,7 +6529,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="SUPPLY7" gate="G$1" x="87.04" y="165.16" smashed="yes">
 <attribute name="VALUE" x="87.04" y="167.954" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="U$3" gate="G$1" x="89.58" y="129.6" smashed="yes">
+<instance part="U3" gate="G$1" x="89.58" y="129.6" smashed="yes">
 <attribute name="NAME" x="79.42" y="152.46" size="1.778" layer="95"/>
 <attribute name="VALUE" x="76.88" y="104.2" size="1.778" layer="96"/>
 </instance>
@@ -6559,12 +6559,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="66.72" y1="109.28" x2="66.72" y2="111.82" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="GND"/>
+<pinref part="U3" gate="G$1" pin="GND"/>
 <wire x1="66.72" y1="111.82" x2="71.8" y2="111.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
-<pinref part="U$3" gate="G$1" pin="!RESET!"/>
+<pinref part="U3" gate="G$1" pin="!RESET!"/>
 <wire x1="69.26" y1="137.22" x2="71.8" y2="137.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -6585,7 +6585,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="5V" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="VCC"/>
+<pinref part="U3" gate="G$1" pin="VCC"/>
 <wire x1="109.9" y1="162.62" x2="132.76" y2="162.62" width="0.1524" layer="91"/>
 <wire x1="132.76" y1="162.62" x2="142.92" y2="162.62" width="0.1524" layer="91"/>
 <wire x1="142.92" y1="162.62" x2="153.08" y2="162.62" width="0.1524" layer="91"/>
@@ -6653,7 +6653,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="I2C_SCL_0" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="SC0"/>
+<pinref part="U3" gate="G$1" pin="SC0"/>
 <wire x1="48.94" y1="127.06" x2="71.8" y2="127.06" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="48.94" y1="127.06" x2="48.94" y2="144.84" width="0.1524" layer="91"/>
@@ -6669,7 +6669,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="56.56" y1="132.14" x2="56.56" y2="144.84" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="SD0"/>
+<pinref part="U3" gate="G$1" pin="SD0"/>
 <wire x1="71.8" y1="132.14" x2="56.56" y2="132.14" width="0.1524" layer="91"/>
 <label x="56.56" y="132.14" size="1.778" layer="95"/>
 </segment>
@@ -6681,7 +6681,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="I2C_SDA_1" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="SD1"/>
+<pinref part="U3" gate="G$1" pin="SD1"/>
 <wire x1="71.8" y1="121.98" x2="33.7" y2="121.98" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="33.7" y1="121.98" x2="33.7" y2="129.6" width="0.1524" layer="91"/>
@@ -6697,7 +6697,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="21" y1="129.6" x2="21" y2="116.9" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="SC1"/>
+<pinref part="U3" gate="G$1" pin="SC1"/>
 <wire x1="21" y1="116.9" x2="71.8" y2="116.9" width="0.1524" layer="91"/>
 <label x="56.56" y="116.9" size="1.778" layer="95"/>
 </segment>
@@ -6709,7 +6709,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="I2C_SDA_2" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="SD2"/>
+<pinref part="U3" gate="G$1" pin="SD2"/>
 <wire x1="107.36" y1="111.82" x2="163.24" y2="111.82" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="163.24" y1="111.82" x2="163.24" y2="127.06" width="0.1524" layer="91"/>
@@ -6725,7 +6725,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="153.08" y1="127.06" x2="153.08" y2="116.9" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="SC2"/>
+<pinref part="U3" gate="G$1" pin="SC2"/>
 <wire x1="153.08" y1="116.9" x2="107.36" y2="116.9" width="0.1524" layer="91"/>
 <label x="109.9" y="116.9" size="1.778" layer="95"/>
 </segment>
@@ -6737,7 +6737,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="I2C_SCL_3" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="SC3"/>
+<pinref part="U3" gate="G$1" pin="SC3"/>
 <wire x1="107.36" y1="127.06" x2="132.76" y2="127.06" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="132.76" y1="127.06" x2="132.76" y2="134.68" width="0.1524" layer="91"/>
@@ -6751,7 +6751,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="I2C_SDA_3" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="SD3"/>
+<pinref part="U3" gate="G$1" pin="SD3"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="107.36" y1="121.98" x2="142.92" y2="121.98" width="0.1524" layer="91"/>
 <wire x1="142.92" y1="121.98" x2="142.92" y2="134.68" width="0.1524" layer="91"/>
@@ -6765,7 +6765,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="I2C_SDA" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="SDA"/>
+<pinref part="U3" gate="G$1" pin="SDA"/>
 <label x="112.44" y="142.3" size="1.27" layer="95" xref="yes"/>
 <wire x1="107.36" y1="142.3" x2="112.44" y2="142.3" width="0.1524" layer="91"/>
 </segment>
@@ -6777,7 +6777,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="I2C_SCL" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="SCL"/>
+<pinref part="U3" gate="G$1" pin="SCL"/>
 <label x="112.44" y="137.22" size="1.27" layer="95" xref="yes"/>
 <wire x1="112.44" y1="137.22" x2="107.36" y2="137.22" width="0.1524" layer="91"/>
 </segment>
@@ -6789,7 +6789,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="I2C_A2" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="A2"/>
+<pinref part="U3" gate="G$1" pin="A2"/>
 <label x="112.44" y="132.14" size="1.27" layer="95" xref="yes"/>
 <wire x1="107.36" y1="132.14" x2="112.44" y2="132.14" width="0.1524" layer="91"/>
 </segment>
@@ -6801,7 +6801,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="I2C_A1" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="A1"/>
+<pinref part="U3" gate="G$1" pin="A1"/>
 <wire x1="71.8" y1="142.3" x2="69.26" y2="142.3" width="0.1524" layer="91"/>
 <label x="69.26" y="142.3" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -6813,7 +6813,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="I2C_A0" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="A0"/>
+<pinref part="U3" gate="G$1" pin="A0"/>
 <wire x1="71.8" y1="147.38" x2="69.26" y2="147.38" width="0.1524" layer="91"/>
 <label x="69.26" y="147.38" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -7242,27 +7242,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="106,1,121.92,-360.68,MUX_A0/1.3C,,,,,"/>
-<approved hash="106,1,114.3,-144.78,MUX_A0/2.3C,,,,,"/>
-<approved hash="106,1,121.92,-363.22,MUX_A1/1.4C,,,,,"/>
-<approved hash="106,1,116.84,-144.78,MUX_A1/2.3C,,,,,"/>
-<approved hash="106,1,121.92,-365.76,MUX_A2/1.4C,,,,,"/>
-<approved hash="106,1,119.38,-144.78,MUX_A2/2.3C,,,,,"/>
-<approved hash="106,1,149.86,-350.52,MUX_OUT/1.4C,,,,,"/>
-<approved hash="106,1,121.92,-144.78,MUX_OUT/2.5C,,,,,"/>
-<approved hash="113,1,145.311,-129.009,FRAME1,,,,,"/>
-<approved hash="113,1,215.223,-124.297,J2,,,,,"/>
-<approved hash="113,1,215.223,-142.077,J3,,,,,"/>
-<approved hash="113,1,215.223,-159.857,J4,,,,,"/>
-<approved hash="113,1,215.223,-177.637,J5,,,,,"/>
-<approved hash="113,1,106.003,-251.297,J7,,,,,"/>
-<approved hash="113,1,45.72,-288.216,U2,,,,,"/>
-<approved hash="113,1,113.623,-337.657,J8,,,,,"/>
-<approved hash="113,1,152.237,-193.717,J6,,,,,"/>
-<approved hash="113,1,166.37,-271.186,S1,,,,,"/>
-<approved hash="113,1,145.311,-311.889,FRAME2,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 <compatibility>
