@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -6879,32 +6879,32 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="94.66" y1="22.92" x2="94.66" y2="25.46" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MUX_A0/2.3C" class="0">
+<net name="MUX_A0" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="P_1.7"/>
 <wire x1="97.2" y1="73.72" x2="97.2" y2="81.34" width="0.1524" layer="91"/>
-<label x="97.2" y="81.34" size="1.27" layer="95" rot="R90" xref="yes"/>
+<label x="97.1" y="81.4" size="1.4224" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="MUX_A1/2.3C" class="0">
+<net name="MUX_A1" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="P_1.6"/>
 <wire x1="99.74" y1="73.72" x2="99.74" y2="76.26" width="0.1524" layer="91"/>
-<label x="99.74" y="76.26" size="1.27" layer="95" rot="R90" xref="yes"/>
+<label x="99.7" y="76.3" size="1.4224" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="MUX_A2/2.3C" class="0">
+<net name="MUX_A2" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="P_1.5"/>
 <wire x1="102.28" y1="73.72" x2="102.28" y2="76.26" width="0.1524" layer="91"/>
-<label x="102.28" y="76.26" size="1.27" layer="95" rot="R90" xref="yes"/>
+<label x="102.3" y="76.3" size="1.4224" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="MUX_OUT/2.5C" class="0">
+<net name="MUX_OUT" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="P_1.4"/>
 <wire x1="104.82" y1="73.72" x2="104.82" y2="76.26" width="0.1524" layer="91"/>
-<label x="104.82" y="76.26" size="1.27" layer="95" rot="R90" xref="yes"/>
+<label x="105" y="76.3" size="1.4224" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -6923,6 +6923,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="72.6" y1="90.1" x2="193.3" y2="90.1" width="0.1524" layer="94"/>
 <wire x1="193.3" y1="90.1" x2="193.3" y2="24.8" width="0.1524" layer="94"/>
 <text x="68.62" y="82.38" size="2.54" layer="94">Mux</text>
+<text x="66.04" y="12.7" size="1.778" layer="94">Note: QFN16 pin numbering is different from the one shown in the sample schematic</text>
 </plain>
 <instances>
 <instance part="J1" gate="G$1" x="127.54" y="122.3" smashed="yes">
@@ -7211,37 +7212,50 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="102.14" y1="53.72" x2="107.22" y2="53.72" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MUX_A0/1.3C" class="0">
+<net name="MUX_A0" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="A0"/>
 <wire x1="107.22" y1="41.02" x2="84.36" y2="41.02" width="0.1524" layer="91"/>
-<label x="84.36" y="41.02" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="84.3" y="41" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="MUX_A1/1.4C" class="0">
+<net name="MUX_A1" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="A1"/>
 <wire x1="107.22" y1="38.48" x2="84.36" y2="38.48" width="0.1524" layer="91"/>
 <label x="84.36" y="38.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="MUX_A2/1.4C" class="0">
+<net name="MUX_A2" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="A2"/>
 <wire x1="107.22" y1="35.94" x2="84.36" y2="35.94" width="0.1524" layer="91"/>
 <label x="84.36" y="35.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="MUX_OUT/1.4C" class="0">
+<net name="MUX_OUT" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="D"/>
 <wire x1="135.16" y1="51.18" x2="142.78" y2="51.18" width="0.1524" layer="91"/>
-<label x="142.78" y="51.18" size="1.27" layer="95" xref="yes"/>
+<label x="142.8" y="51.1" size="1.4224" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,128.211,89.491,FRAME1,,,,,"/>
+<approved hash="113,1,198.123,94.2026,J2,,,,,"/>
+<approved hash="113,1,198.123,76.4226,J3,,,,,"/>
+<approved hash="113,1,198.123,58.6426,J4,,,,,"/>
+<approved hash="113,1,198.123,40.8626,J5,,,,,"/>
+<approved hash="113,2,91.3027,150.403,J7,,,,,"/>
+<approved hash="113,2,31.02,113.484,U2,,,,,"/>
+<approved hash="113,2,98.9227,64.0426,J8,,,,,"/>
+<approved hash="113,1,135.137,24.7827,J6,,,,,"/>
+<approved hash="113,2,151.67,130.514,S1,,,,,"/>
+<approved hash="113,2,130.611,89.811,FRAME2,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
